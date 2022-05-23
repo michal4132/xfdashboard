@@ -94,7 +94,7 @@ GType xfdashboard_hot_corner_settings_activation_corner_get_type(void)
 
 
 /* IMPLEMENTATION: Private variables and methods */
-#define POLL_POINTER_POSITION_INTERVAL			100
+#define POLL_POINTER_POSITION_INTERVAL			10
 
 typedef struct _XfdashboardHotCornerSettingsBox		XfdashboardHotCornerSettingsBox;
 struct _XfdashboardHotCornerSettingsBox

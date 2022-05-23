@@ -70,3 +70,4 @@ po/Makefile.in.in
 po/stamp-it
 po/.intltool-merge-cache
 po/xfdashboard.pot
+po/.intltool-merge-cache.lock

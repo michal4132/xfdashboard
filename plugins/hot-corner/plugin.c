@@ -380,7 +380,7 @@ static GObject* plugin_configure(XfdashboardPlugin *self, gpointer inUserData)
 	gtk_widget_set_halign(widgetLabel, GTK_ALIGN_END);
 	gtk_grid_attach(GTK_GRID(layout), widgetLabel, 0, 2, 1, 1);
 
-	widgetValue=gtk_scale_new_with_range(GTK_ORIENTATION_HORIZONTAL, 100.0, 10000.0, 100.0);
+	widgetValue=gtk_scale_new_with_range(GTK_ORIENTATION_HORIZONTAL, 10.0, 2000.0, 10.0);
 	_plugin_configure_setup_widget(widgetValue,
 										settings,
 										"activation-duration",
